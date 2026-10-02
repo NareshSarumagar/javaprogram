@@ -7,17 +7,17 @@ public class colorfilled extends JPanel {
         super.paintComponent(g);
 
         //Reactangle
-        g.setColor(Color.RED);
+        g.setColor(Color.YELLOW);
         g.fillRect(50,50, 150, 100);
 
         //Circle
-        g.setColor(Color.BLUE);
+        g.setColor(Color.RED);
         g.fillOval(250,50, 100, 100);
 
         //Triangle
         int[] xPoints = {450, 400, 500};
         int[] yPoints = {50, 150, 150};
-        g.setColor(Color.GREEN);
+        g.setColor(Color.BLUE);
         g.fillPolygon(xPoints, yPoints, 3);
 
     };
